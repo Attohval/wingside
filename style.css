@@ -846,6 +846,7 @@ h6 a {
     }
      h2 {
         font-size: 20px;
+         width: 100%
     }
     .navbar {
         background: var(--secondary-bg);
