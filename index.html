@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wingside</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="media/Wingside.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body class="body">
+    <header class="navbar">
+        <h1 class="page-title">Wingside</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Spaces</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a id="secondary-btn" href="#">Contact us</a></li>
+        </ul>
+    </header> <!-- End of header design-->
+
+    <div class="hero-section">
+        <div class="hero-info">
+            <h1>Modern Workspaces for Modern Professionals</h1> <br>
+            <p>Flexible office spaces designed to boost productivity and inspire creativity</p> <br>
+            <div class="hero-btn">
+                <a id="primary-btn" href="#">Book a Tour</a>
+                <a id="secondary-btn" href="#">Learn More</a>
+            </div>
+        </div>
+        <img src="media/left-hero-img.jpg" alt="" class="hero-img">
+    </div> <!-- End of hero design -->
+
+    <div class="our-workspace-section">
+        <h2>Our Workspaces</h2>
+        <p>Find the perfect space that fits your working style and needs.</p>
+        <div class="workspace-frame">
+            <div class="workspace-card">                
+                <img class="workspace-img" src="media/1workspace.jpg" alt="workspace">
+                <div class="detail">
+                    <h3>Private Office</h3>
+                    <p>Dedicated spaces for teams of all sizes with privacy and security.</p> <br>
+                    <a href="">Learn more <i class="ri-arrow-right-line"></i> </a>
+                </div>
+            </div>
+            <div class="workspace-card">
+                <img class="workspace-img" src="media/2workspace.jpg" alt="workspace">
+                <div class="detail">
+                    <h3>Meeting Rooms</h3>
+                    <p>Professional spaces for client meetings and team collaborations.</p> <br>
+                    <a href="">Learn more <i class="ri-arrow-right-line"></i> </a>
+                </div>
+            </div>
+            <div class="workspace-card">
+                <img class="workspace-img" src="media/3workspace.jpg" alt="workspace">
+                <div class="detail">  
+                    <h3>Private Office</h3>
+                    <p>You can own desk in a shared space, available 24/7.</p> <br>
+                    <a href="">Learn more <i class="ri-arrow-right-line"></i> </a>
+                </div> 
+            </div>
+        </div>
+    </div> <!-- End of our-workspace-section design -->
+    
+    <div class="membership-section">
+        <h2>Membership Plans</h2>
+        <p class="p-center">Choose the plan that works best for you and your team.</p>
+        <div class="membership-frame">
+            <div class="membership-card" id="membership-card-1">
+                <p class="plan-title">Hot Desk</p> <br> <br>
+                <p class="plan-price"><span>$199</span>/month</p> <br>
+                <p>
+                    <i class="ri-check-line"></i>
+                    Access during business hours.
+                </p> <br>
+                <p>
+                    <i class="ri-check-line"></i>
+                    Shared workspace.
+                </p> <br>
+                <p>
+                    <i class="ri-check-line"></i>
+                    High-speed internet.
+                </p> <br>
+                <p>
+                    <i class="ri-check-line"></i>
+                    2 meeting room hours/month.
+                </p> <br>
+                <p>
+                    <i class="ri-check-line"></i>
+                    Coffee and refreshments.
+                </p> <br> <br>
+
+                <button class="alternate-btn">Choose Plan</button>
+            </div>
+            <div class="membership-card" id="membership-card-2">
+                <p class="super-title">Most Popular</p>
+                <div>
+                    <p class="plan-title">Dedicated Desk</p> <br> <br>
+                    <p class="plan-price"><span>$349</span>/month</p> <br>
+
+                    <p>
+                        <i class="ri-check-line"></i>
+                        24/7 access.
+                    </p> <br>
+                    <p>
+                        <i class="ri-check-line"></i>
+                        Your own dedicated desk.
+                    </p> <br>
+                    <p>
+                        <i class="ri-check-line"></i>
+                        Locable storage.
+                    </p> <br>
+                    <p>
+                        <i class="ri-check-line"></i>
+                        10 meeting room hours/month.
+                    </p> <br>
+                    <p>
+                        <i class="ri-check-line"></i>
+                        All amenities included.
+                    </p> <br>
+                    <p>
+                        <i class="ri-check-line"></i>
+                        All amenities included.
+                    </p> <br> <br>
+
+                    <button class="alternate-btn">Choose Plan</button>
+                </div>
+            </div>
+            <div class="membership-card" id="membership-card-3">
+                <p class="plan-title">Private Office</p> <br> <br>
+                <p class="plan-price"><span>$699</span>/month</p> <br>
+
+                <p>
+                    <i class="ri-check-line"></i>
+                    24/7 access.
+                </p> <br>
+                <p>
+                    <i class="ri-check-line"></i>
+                    Private, lockable office.
+                </p> <br>
+                <p>
+                    <i class="ri-check-line"></i>
+                    Customizable space.
+                </p> <br>
+                <p>
+                    <i class="ri-check-line"></i>
+                    20 meeting room hours/month.
+                </p> <br>
+                <p>
+                    <i class="ri-check-line"></i>
+                    Business address and mail handling.
+                </p> <br> <br>
+
+                <button class="alternate-btn">Choose Plan</button>
+            </div>
+        </div>
+    </div>  <!-- End of membership-section design -->
+    
+    <div class="workspace-features-section">
+        <h2>Workspace-features Plans</h2>
+        <p>Choose the plan that works best for you and your team.</p>
+        <div class="workspace-features-frame">
+            <div class="features-card">
+                <i class="ri-wifi-line"></i>
+                <h4>High-Speed WiFi</h4>
+                <p>Gigsbit internet connection <br> throughout all our locations.</p>
+            </div>
+            <div class="features-card">
+                <i class="ri-cup-line"></i>
+                <h4>Refreshments</h4>
+                <p>Complementary coffee, tea <br>and snacks to keep you <br>energized</p>
+            </div>
+            <div class="features-card">
+                <i class="ri-group-line"></i>
+                <h4>High-Speed WiFi</h4>
+                <p>Fully equiped meeting <br>spaces for your team <br>collaborations</p>
+            </div>
+            <div class="features-card">
+                <i class="ri-link"></i>
+                <h4>Productivity Focus</h4>
+                <p>Environments designed to <br> maximize your productivity.</p>
+            </div>
+            <div class="features-card">
+                <i class="ri-time-line"></i>
+                <h4>24/7 Access</h4>
+                <p>Work whenever inspiration <br>strikes with round the clock <br>access.</p>
+            </div>
+            <div class="features-card">
+                <i class="ri-lock-line"></i>
+                <h4>Secure Access</h4>
+                <p>State of the art security <br>systems to keep your work safe.</p>
+            </div>
+        </div>
+    </div>  <!-- End of workspace-features-section design -->
+    
+    
+    <div class="testimony-section">
+        <h2>What Our Members Say</h2>
+        <p>Join our community of professionals who have found their ideal workspace with us.</p>
+        <div class="testimony-frame">
+            <div class="testimony-card">
+                <div>
+                    <img src="media/user-img.jpeg" alt="" class="member-img">
+                    <p class="member-name">Valentine Attoh <br> <span>Founder Vtech Solutions</span></p>
+                </div>
+                <p class="member-says">Joining Wingside was the best decision for my startup. The environment is perfect for productivity and networking.</p>
+            </div>
+            <div class="testimony-card">
+                <div>
+                    <img src="media/user-img.jpeg" alt="" class="member-img">
+                    <p class="member-name">Valentine Attoh <br> <span>Founder Vtech Solutions</span></p>
+                </div>
+                <p class="member-says">Joining Wingside was the best decision for my startup. The environment is perfect for productivity and networking.</p>
+            </div>
+            <div class="testimony-card">
+                <div>
+                    <img src="media/user-img.jpeg" alt="" class="member-img">
+                    <p class="member-name">Valentine Attoh <br> <span>Founder Vtech Solutions</span></p>
+                </div>
+                <p class="member-says">Joining Wingside was the best decision for my startup. The environment is perfect for productivity and networking.</p>
+
+            </div>
+        </div>
+    </div>  <!-- End of testimony-section design -->
+    
+    
+    <div class="get-in-touch-section">
+        <h2>Get in Touch</h2>
+        <p>Have questions or want to book a tour? Reach out to us.</p>
+        <div class="get-in-touch-frame">
+            <div id="message-us">
+                <h5>Send Us a Message</h5> <br>
+            <table class="msg-form">
+                <tr class="row-one rows">
+                    <td>
+                        <label for="">Name</label> <br>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <label for="">Email</label> <br>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <br>
+                        <label for="">Subject</label> <br>
+                        <input class="subject" type="text">
+                    </td>
+                </tr>
+                <!-- add multi line text input for message -->
+                <tr>
+                    <td  colspan="2"> <br>
+                        <label for="">Message</label> <br>
+                        <!-- <input class="msg-box" type="text"> -->
+                         <textarea class="msg-box" placeholder="Type your message here..."></textarea>
+                    </td>
+                </tr> 
+                <tr>
+                    <td class="msg-btn-row" colspan="2"> <br>
+                        <button class="msg-btn">Send Message</button>
+                    </td>
+                </tr>
+            </table>
+
+            </div>
+            <div id="locate-us">
+                <div class="contact-info">
+                    <h5>Contact Information</h5>
+                    <table class="info-table">
+                        <tr class="address">
+                            <td><i class="ri-map-pin-2-line"></i></td>
+                            <td><span>Address</span> <br> 123 Workspace Avenue, Business District, 500001.</td>
+                        </tr>
+                        <tr class="phone">
+                            <td><i class="ri-phone-line"></i></td>
+                            <td>
+                                <span>Phone</span><br>+(234) 07036974467 <br>+(234) 09049800715
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="hours-of-ops">
+                    <h5>Hours of Operation</h5> <br>
+                    <table class="operation-hrs">
+                        <tr class="op-rows">
+                            <td>Monday-Friday</td>
+                            <td class="time">7:00AM-10:00PM</td>
+                        </tr>
+                        <tr class="op-rows">
+                            <td>Saturday</td>
+                            <td class="time">9:00AM-7:00PM</td>
+                        </tr>
+                        <tr class="op-rows">
+                            <td>Sunday</td>
+                            <td class="time">10:00AM-6:00PM</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>  <!-- End of get-in-touch-section design -->
+
+    <footer class="footer-section">
+        <div class="footer-frame">
+            <div class="footer-card" id="wingside">
+                <h5>Wingside</h5> <br>
+                <h6>Producing flexible Workspace solutions for professionals and teams of all sizes</h6> <br>
+
+                <div class="socials">
+                    <a href="">
+                        <i class="ri-facebook-box-line social-icon"></i> 
+                    </a>
+                    <a href="">
+                        <i class="ri-instagram-line social-icon"></i>
+                    </a>
+                    <a href="">
+                        <i class="ri-linkedin-box-line social-icon"></i>
+                    </a>
+                    <a href="">
+                        <i class="ri-twitter-x-line social-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-card">
+                <h5>Quick Links</h5> <br>
+                <h6><a href="#">Home</a></h6> <br>
+                <h6><a href="#">Spaces</a></h6> <br>
+                <h6><a href="#">Features</a></h6> <br>
+                <h6><a href="#">Pricing</a></h6> <br>
+                <h6><a href="#">Contact</a></h6>
+            </div>
+            <div class="footer-card">
+                <h5>Our Locations</h5> <br>
+                <h6>Lagos</h6> <br>
+                <h6>Port-Harcourt</h6> <br>
+                <h6>Nairobi</h6> <br>
+                <h6>Accra</h6>
+            </div>
+            <div class="footer-card" id="newsletter">
+                <h5>Newsletter</h5> <br>
+                <h6>Subscribe to get latest updates</h6> <br>
+                <div class="input">
+                    <input type="email" placeholder="Your Email"><button class="secondary-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-card">
+            <h6>2025 Workspace All rights reserved.</h6>
+        </div>    
+    </footer>
+</body>
+</html>
